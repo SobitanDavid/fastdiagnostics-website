@@ -32,7 +32,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: ["info@fasdiagnostics.com", "appointments@fasdiagnostics.com",],
+    details: ["info@fasdiagnostics.com", "feedback@fasdiagnostics.com",],
   },
   {
     icon: Clock,

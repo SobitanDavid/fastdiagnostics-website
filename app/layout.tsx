@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     "medical laboratory, diagnostics, clinical chemistry, hematology, histopathology, immunology, microbiology, parasitology, medical testing, lab services, healthcare diagnostics",
   generator: "Next.js",
   metadataBase: new URL("https://fasdiagnostics.com"),
+
+    icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
+  
   openGraph: {
     title: "FASDiagnostics - Professional Medical Laboratory Services",
     description: "Comprehensive medical laboratory testing with quality results and trusted professionals.",
