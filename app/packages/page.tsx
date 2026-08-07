@@ -433,9 +433,7 @@ export default function PackagesPage() {
               </p>
               <p>📞 +234 810 474 0000 | +234 706 779 1560</p>
               <p>🌐 fasdiagnostics.com | 📧 info@fasdiagnostics.com</p>
-              <p>📍 28, Awanatu Street, Papa Ajao, Mushin, Lagos State
-                <br></br>
-                68, Ishaga road, Idi-araba, Surulere, Lagos State
+              <p>📍 68, Ishaga road, Idi-araba, Surulere, Lagos State
               </p>
             </div>
           </div>

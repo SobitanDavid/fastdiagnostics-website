@@ -93,14 +93,6 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-muted-foreground">
-                  <p className="font-medium text-foreground">Mushin Branch</p>
-                  <p>28 Awanatu Street</p>
-                  <p>Papa Ajao, Mushin, Lagos State</p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                <div className="text-sm text-muted-foreground">
                   <p className="font-medium text-foreground">Idi-araba Branch</p>
                   <p>68 Ishaga Road</p>
                   <p>Idi-araba, Surulere, Lagos State</p>
@@ -122,7 +114,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <Clock className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-muted-foreground">
-                  <p>24/7</p>
+                  <p>Monday - Saturday: 9:00am to 7:00pm</p>
                 </div>
               </div>
             </div>

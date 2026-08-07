@@ -16,11 +16,6 @@ export const metadata: Metadata = {
 const contactInfo = [
   {
     icon: MapPin,
-    title: "Mushin Branch",
-    details: ["28 Awanatu Street", "Papa Ajao, Mushin", "Lagos State, Nigeria"],
-  },
-  {
-    icon: MapPin,
     title: "Idi-araba Branch",
     details: ["68 Ishaga Road", "Idi-araba" , "Lagos State, Nigeria"],
   },
@@ -37,7 +32,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Operating Hours",
-    details: ["24/7"],
+    details: ["Monday - Saturday: 9:00 am - 7:00 pm"],
   },
 ]
 
@@ -98,24 +93,6 @@ export default function ContactPage() {
         <section className="py-16 px-6 bg-card">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">Our Locations</h2>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {/* Mushin Branch Map */}
-              <div>
-                <h3 className="text-xl font-semibold text-primary mb-4">Mushin Branch - Papa Ajao</h3>
-                <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7708!2d3.3567!3d6.5018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d0aa755f2c9%3A0x123456789!2s28%20Awanatu%20St%2C%20Papa%20Ajao%2C%20Mushin%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1234567890"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="FASDiagnostics Mushin Branch Location"
-                  ></iframe>
-                </div>
-              </div>
-
               {/* Idi-araba Branch Map */}
               <div>
                 <h3 className="text-xl font-semibold text-primary mb-4">Idi-araba Branch - Ishaga Road</h3>
@@ -132,7 +109,6 @@ export default function ContactPage() {
                   ></iframe>
                 </div>
               </div>
-            </div>
           </div>
         </section>
       </main>
